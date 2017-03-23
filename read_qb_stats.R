@@ -6,5 +6,5 @@ tbrady <- read.csv(file="qb/tbrady.csv",header=T,sep=",")
 print("Tom Brady stats loaded!")
 
 print("Sorting Yards by Age/Year...")
-yards <- tbrady %>% group_by(Age) %>% select(Year,Yds)
+yards <- tbrady %>% group_by(Age) %>% select(Age,Year,Yds)
 print(yards)
