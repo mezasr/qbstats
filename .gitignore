@@ -38,8 +38,6 @@ $RECYCLE.BIN/
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
-.RData
-.RHistory
 
 # Directories potentially created on remote AFP share
 .AppleDB
@@ -47,3 +45,10 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# other shit
+.RData
+.RHistory
+*.ipynb
+qbs.txt
+stats_example.txt
